@@ -4,4 +4,4 @@ spring:
   cloud:
     config:
       server:
-        encrypt.enabled: false
+        encrypt.enabled: false # server측 복호화 비 활성화

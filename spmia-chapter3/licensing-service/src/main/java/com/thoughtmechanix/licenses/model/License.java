@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
+@Entity // 스프링에 이 자바 POJO가 데이터를 보관할 객체가 될 것이라고 알려준다.
 @Table(name = "licenses")
 public class License{
   @Id

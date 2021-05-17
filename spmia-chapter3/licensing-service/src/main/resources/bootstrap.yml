@@ -1,6 +1,6 @@
 spring:
   application:
-    name: licensingservice
+    name: licensingservice # 애플리케이션 이름, 스프링 클라우드 컨피그 서버의 디렉터리 이름과 일치해야 한다.
   profiles:
     active:
       default
